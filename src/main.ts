@@ -20,5 +20,5 @@ server.delete('/', (req: Request, res: Response) => {
 const port = 2000;
 
 server.listen(port, () => {
-  console.log(`Просмотр по порту ${port}`);
+  console.log(`Просмотр по порт ${port}`);
 });
